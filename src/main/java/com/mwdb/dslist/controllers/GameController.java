@@ -14,7 +14,7 @@ import com.mwdb.dslist.services.GameService;
 
 @RestController
 @RequestMapping(value = "/games")
-public class GameControllers {
+public class GameController {
 
     @Autowired
     private GameService gameService;

@@ -7,5 +7,4 @@ import org.springframework.data.jpa.repository.Query;
 import com.mwdb.dslist.entities.GameList;
 
 public interface GameListRepository extends JpaRepository<GameList, Long> {
-  
 }

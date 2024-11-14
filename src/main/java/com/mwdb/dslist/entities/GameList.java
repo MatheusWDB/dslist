@@ -1,12 +1,9 @@
 package com.mwdb.dslist.entities;
 
-import com.mwdb.dslist.entities.pk.BelongingPK;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 
 @Entity(name = "tb_game_list")
 public class GameList {
